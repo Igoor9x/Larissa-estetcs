@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.testimonials-swiper .swiper-slide {
+  transition: all 0.6s ease;
+  opacity: 0.45;
+  filter: blur(2px);
+  transform: scale(0.92);
+}
+
+.testimonials-swiper .swiper-slide-active,
+.testimonials-swiper .swiper-slide-prev,
+.testimonials-swiper .swiper-slide-next {
+  opacity: 1;
+  filter: blur(0);
+  transform: scale(1);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #8b5e34 !important;
+  background: #e6e6e6;
+  border-radius: 50%;
+  font-size: 12px;
+  border: 1px solid #8b5e34;
+}
+
+.testimonials-swiper .swiper-button-next {
+  right: var(--swiper-navigation-sides-offset, 70px) !important;
+}
+
+.testimonials-swiper .swiper-button-prev{
+  margin-left: 70px !important;
+}
+
+.testimonials-swiper .swiper-button-prev,
+.testimonials-swiper .swiper-button-next {
+  top: var(--swiper-navigation-top-offset, 37%) !important;
+}
+.swiper-navigation-icon{
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.swiper-pagination-bullet {
+  background: #8b5e34;
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #8b5e34 !important;
+}
+
+.swiper-pagination{
+  position: relative !important;
+  margin-top: 20px !important;
+}
