@@ -8,7 +8,7 @@ import { ArrowRight } from "lucide-react";
 export default function Hero() {
   return (
     <>
-      <section id="heroBanner" className= "bg-[url('/assets/heroBanner2.png')] h-180 bg-cover flex items-center justify-start px-[120px] max-lap:px-[40px] max-tab:px-5 max-mob:px-[20px] max-tab:bg-[url('/assets/heroBanner2-tablet.png')]  max-mob:bg-[url('/assets/heroBanner2-mobile.png')] max-mob:h-140">
+      <section id="heroBanner" className= "bg-[url('/assets/heroBanner2.png')] h-180 bg-cover flex items-center justify-start px-[120px] max-lap:px-[40px] max-tab:px-5 max-mob:px-[20px] max-tab:bg-[url('/assets/heroBanner2-tablet.png')]  max-mob:bg-[url('/assets/heroBanner2-mobile.png')] max-mob:h-130">
         <div className="flex flex-col justify-center w-[550px] rounded-lg p-5 pt-[100px] max-tab:p-0 max-tab:pt-[50px] max-mob:pt-[0px]">
           <p className="text-[14px] font-semibold uppercase text-yellow-700 max-tab:text-[12px]">Beleza natural. Resultados&nbsp;extraordinários.</p>
           <h1 className="text-[52px] font-bold text-yellow-900 font-[cormorantGaramond] leading-[1.2] max-mob:text-[36px]">Sua melhor versão, com&nbsp;<span className="text-yellow-700">naturalidade</span></h1>

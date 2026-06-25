@@ -37,7 +37,7 @@ export default function Header() {
 
   return (
     <>
-      <header className= {`${activeSection === "heroBanner" && !isScrolled ? " bg-transparent w-full h-16 flex items-center justify-center gap-12 px-10 fixed transition-colors duration-300 z-3 max-lap:px-5 max-lap:gap-10 max-tab:relative" : "bg-white w-full h-16 flex items-center justify-center gap-12 px-10 fixed shadow-sm transition-colors duration-300 z-3 max-lap:px-5 max-lap:gap-10 max-tab:relative max-tab:bg-transparent"}`}>
+      <header className= {`${activeSection === "heroBanner" && !isScrolled ? "bg-transparent w-full h-16 flex items-center justify-center gap-12 px-10 fixed transition-colors duration-300 z-3 max-lap:px-5 max-tab:bg-transparent max-tab:shadow-none" : "bg-white w-full h-16 flex items-center justify-center gap-12 px-10 fixed shadow-sm transition-colors duration-300 z-3 max-lap:px-5 max-lap:gap-10  max-tab:absolute max-tab:bg-transparent max-tab:shadow-none"}`}>
         <div className="hidden max-tab:flex">
 
         </div>

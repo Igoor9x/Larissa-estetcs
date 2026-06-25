@@ -6,7 +6,7 @@ export default function About() {
     <>
     <section id="about">
       <div className=" flex px-10 gap-16 justify-center items-center max-lap:gap-10 max-tab:flex-col max-tab:gap-6 max-tab:px-5 max-tab:w-full bg-[#FEFCF9] py-10">
-        <div className="w-auto h-[650px] rounded-xl">
+        <div className="w-auto h-[650px] rounded-xl max-mob:h-[400px]">
           <img 
             src="/assets/larissa-v3.png" 
             alt="Dra. Larissa Almeida" 
