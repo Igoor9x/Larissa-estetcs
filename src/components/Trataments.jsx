@@ -10,7 +10,7 @@ export default function Trataments() {
             <img src="../assets/trat1.png" className="bg-[#fff3f1] p-3 rounded-full absolute top-[-45px] flex items-center justify-center w-[110px] max-lap:w-[90px]" />
             <h3 className="text-xl font-bold text-[#2C1A0F] px-4 pt-12">Harmonização Facial</h3>
             <span className="text-gray-600 px-6 max-lap:max-w-[350px]">Equilíbrio e harmonia para realçar sua beleza natural.</span>
-            <span className="text-yellow-700 hover:text-yellow-900 cursor-pointer">Saiba mais</span>
+            {/* <span className="text-yellow-700 hover:text-yellow-900 cursor-pointer">Saiba mais</span> */}
             <img src="../assets/card1.png" alt="Harmonização Facial" className="w-full h-[200px] object-cover rounded-b-lg max-lap:h-[350px]" />
           </div>
 
@@ -18,7 +18,7 @@ export default function Trataments() {
             <img src="../assets/trat2.png" className="bg-[#fff3f1] p-3 rounded-full absolute top-[-45px] flex items-center justify-center w-[110px] max-lap:w-[90px]" />
             <h3 className="text-xl font-bold text-[#2C1A0F] px-4 pt-12">Toxina Botulínica</h3>
             <span className="text-gray-600 px-6 max-lap:max-w-[350px]">Suaviza rugas e linhas de expressão com naturalidade.</span>
-            <span className="text-yellow-700 hover:text-yellow-900 cursor-pointer">Saiba mais</span>
+            {/* <span className="text-yellow-700 hover:text-yellow-900 cursor-pointer">Saiba mais</span> */}
             <img src="../assets/card2.png" alt="Toxina Botulínica" className="w-full h-[200px] object-cover rounded-b-lg max-lap:h-[350px]" />
           </div>
 
@@ -26,7 +26,7 @@ export default function Trataments() {
             <img src="../assets/trat3.png" className="bg-[#fff3f1] p-3 rounded-full absolute top-[-45px] flex items-center justify-center w-[110px] max-lap:w-[90px]" />
             <h3 className="text-xl font-bold text-[#2C1A0F] px-4 pt-12">Preenchimento</h3>
             <span className="text-gray-600 px-6 max-lap:max-w-[350px]">Volume e contorno para um resultado sofisticado.</span>
-            <span className="text-yellow-700 hover:text-yellow-900 cursor-pointer">Saiba mais</span>
+            {/* <span className="text-yellow-700 hover:text-yellow-900 cursor-pointer">Saiba mais</span> */}
             <img src="../assets/card3.png" alt="Preenchimento" className="w-full h-[200px] object-cover rounded-b-lg max-lap:h-[350px]" />
           </div>
 
@@ -34,7 +34,7 @@ export default function Trataments() {
             <img src="../assets/trat4.png" className="bg-[#fff3f1] p-3 rounded-full absolute top-[-45px] flex items-center justify-center w-[110px] max-lap:w-[90px]" />
             <h3 className="text-xl font-bold text-[#2C1A0F] px-4 pt-12">Bioestimuladores</h3>
             <span className="text-gray-600 px-6 max-lap:max-w-[350px]">Estimula o colágeno e melhora a firmeza da pele.</span>
-            <span className="text-yellow-700 hover:text-yellow-900 cursor-pointer">Saiba mais</span>
+            {/* <span className="text-yellow-700 hover:text-yellow-900 cursor-pointer">Saiba mais</span> */}
             <img src="../assets/card4.png" alt="Bioestimuladores" className="w-full h-[200px] object-cover rounded-b-lg max-lap:h-[350px]" />
           </div>
         </div>
