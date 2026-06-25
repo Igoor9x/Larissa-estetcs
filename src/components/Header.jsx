@@ -5,33 +5,39 @@ import { useEffect, useState } from "react";
 
 export default function Header() {
   const [activeSection, setActiveSection] = useState("heroBanner");
+  const [isScrolled, setIsScrolled] = useState(false);
 
-  useEffect(()=> {
-    const sections = document.querySelectorAll("section[id]");
-    console.log(sections);
+   useEffect(() => {
+    const handleScroll = () => {
+      const sections = document.querySelectorAll("section[id]");
 
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if(entry.isIntersecting) {
-          setActiveSection(entry.target.id);
+      let currentSection = "heroBanner";
+
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+        const headerOffset = 90;
+
+        if (window.scrollY >= sectionTop - headerOffset) {
+          currentSection = section.getAttribute("id");
         }
       });
-    }, { threshold: 0.5 });
 
-    sections.forEach((section) => {
-      observer.observe(section);
-    });
+      setActiveSection(currentSection);
+      setIsScrolled(window.scrollY > 10);
+    };
+
+    handleScroll();
+
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      sections.forEach((section) => {
-        observer.unobserve(section);
-      });
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
     <>
-      <header className= {`${activeSection === "heroBanner" ? " bg-transparent w-full h-18 flex items-center justify-center gap-12 px-10 fixed transition-colors duration-300 z-3 max-lap:px-5 max-lap:gap-10" : "bg-white w-full h-18 flex items-center justify-center gap-12 px-10 fixed shadow-sm transition-colors duration-300 z-3 max-lap:px-5 max-lap:gap-10"}`}>
+      <header className= {`${activeSection === "heroBanner" && !isScrolled ? " bg-transparent w-full h-16 flex items-center justify-center gap-12 px-10 fixed transition-colors duration-300 z-3 max-lap:px-5 max-lap:gap-10 max-tab:relative" : "bg-white w-full h-16 flex items-center justify-center gap-12 px-10 fixed shadow-sm transition-colors duration-300 z-3 max-lap:px-5 max-lap:gap-10 max-tab:relative max-tab:bg-transparent"}`}>
         <div className="hidden max-tab:flex">
 
         </div>
@@ -69,12 +75,35 @@ export default function Header() {
             >
               Sobre
             </a></li>
-            <li><a href="#" className="text-gray-700 text-[16px] hover:text-yellow-900">Resultados</a></li>
-            <li><a href="#" className="text-gray-700 text-[16px] hover:text-yellow-900">Depoimentos</a></li>
-            <li><a href="#" className="text-gray-700 text-[16px] hover:text-yellow-900">Contato</a></li>
+            <li><a 
+              href="#resultados"
+              className={`${
+                activeSection === "resultados"
+                  ? "text-yellow-700 font-semibold text-[18px] border-b"
+                  : "text-gray-700 text-[16px]"
+              } hover:text-yellow-700`}
+              >
+              Resultados
+            </a></li>
+            <li><a 
+              href="#depoimentos" className={`${
+                activeSection === "depoimentos"
+                  ? "text-yellow-700 font-semibold text-[18px] border-b"
+                  : "text-gray-700 text-[16px]"
+              } hover:text-yellow-700`}>
+              Depoimentos
+            </a></li>
+            <li><a 
+              href="#contato" className={`${
+                activeSection === "contato"
+                  ? "text-yellow-700 font-semibold text-[18px] border-b"
+                  : "text-gray-700 text-[16px]"
+              } hover:text-yellow-700`}>
+              Contato
+            </a></li>
           </ul>
         </nav>
-        <button className="text-white px-4 py-2 rounded cursor-pointer bg-yellow-900 max-tab:px-3 max-mob:text-[12px] max-mob:hidden">Agendar Consulta</button>
+        {/* <button className="text-white px-4 py-2 rounded cursor-pointer bg-yellow-900 max-tab:px-3 max-mob:text-[12px] max-mob:hidden">Agendar Consulta</button> */}
       </header>
     </>
   )

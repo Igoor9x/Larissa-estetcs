@@ -9,9 +9,9 @@ import { Star } from "lucide-react";
 export default function Depoiments() {
   return (
     <>
-      <div className="bg-[#FCF8F2]">
+      <section id="depoimentos" className="bg-[#FCF8F2]">
         <div className="flex flex-col items-center justify-center text-center gap-2 pb-4 max-mob:px-5">
-          <h2 className="text-4xl font-bold text-[#2C1A0F] text-center pt-10 pb-5 max-mob:text-[28px]">O que nossas pacientes&nbsp;dizem</h2>
+          <h2 className="text-4xl font-bold text-[#2C1A0F] text-center pt-15 pb-10 max-mob:text-[28px]">O que nossas pacientes&nbsp;dizem</h2>
         </div>
         <div className=" pb-20 max-tab:pb-10">
           <Swiper 
@@ -28,7 +28,7 @@ export default function Depoiments() {
                 slidesPerView: 1.3,
               },
               768: {
-                slidesPerView: 1.5,
+                slidesPerView: 1.7,
               },
               1024: {
                 slidesPerView: 3.5,
@@ -129,7 +129,7 @@ export default function Depoiments() {
         
           </Swiper>
         </div>
-      </div>
+      </section>
     </>
   )
 }

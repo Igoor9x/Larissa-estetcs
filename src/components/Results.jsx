@@ -9,9 +9,9 @@ import "swiper/css/pagination";
 export default function Results() {
   return (
     <>
-      <div>
+      <section id="resultados">
         <div className="flex flex-col items-center justify-center text-center gap-2 pt-10 pb-4 max-mob:px-5">
-          <h2 className="text-4xl font-bold text-[#2C1A0F] text-center py-10 pb-0 max-mob:pt-0 max-mob:text-[28px]">Resultados que falam por si</h2>
+          <h2 className="text-4xl font-bold text-[#2C1A0F] text-center py-10 pb-0 max-tab:pt-5 max-mob:pt-0 max-mob:text-[28px]">Resultados que falam&nbsp;por&nbsp;si</h2>
           <span className="mt-2 text-[#5D4037]">
             Veja alguns resultados reais de nossas&nbsp;pacientes.
           </span>
@@ -37,15 +37,15 @@ export default function Results() {
               },
             }}
           >
-            <SwiperSlide><img src="../assets/resultado1.png" alt="Result 1" className="rounded-xl" /></SwiperSlide>
-            <SwiperSlide><img src="../assets/resultado2.png" alt="Result 2" className="rounded-xl" /></SwiperSlide>
-            <SwiperSlide><img src="../assets/resultado3.png" alt="Result 3" className="rounded-xl" /></SwiperSlide>
-            <SwiperSlide><img src="../assets/resultado4.png" alt="Result 4" className="rounded-xl" /></SwiperSlide>
-            <SwiperSlide><img src="../assets/resultado5.png" alt="Result 5" className="rounded-xl" /></SwiperSlide>
-            <SwiperSlide><img src="../assets/resultado6.png" alt="Result 6" className="rounded-xl" /></SwiperSlide>
+            <SwiperSlide><img src="../assets/resultado1.png" alt="Result 1" className="rounded-xl max-h-[500px]" /></SwiperSlide>
+            <SwiperSlide><img src="../assets/resultado2.png" alt="Result 2" className="rounded-xl max-h-[500px]" /></SwiperSlide>
+            <SwiperSlide><img src="../assets/resultado3.png" alt="Result 3" className="rounded-xl max-h-[500px]" /></SwiperSlide>
+            <SwiperSlide><img src="../assets/resultado4.png" alt="Result 4" className="rounded-xl max-h-[500px]" /></SwiperSlide>
+            <SwiperSlide><img src="../assets/resultado5.png" alt="Result 5" className="rounded-xl max-h-[500px]" /></SwiperSlide>
+            <SwiperSlide><img src="../assets/resultado6.png" alt="Result 6" className="rounded-xl max-h-[500px]" /></SwiperSlide>
           </Swiper>
         </div>
-      </div>
+      </section>
     </>
   )
 }

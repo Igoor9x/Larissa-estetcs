@@ -17,7 +17,7 @@ body {
 
 .testimonials-swiper .swiper-slide {
   transition: all 0.6s ease;
-  opacity: 0.45;
+  opacity: 0.5;
   filter: blur(2px);
   transform: scale(0.92);
 }
@@ -37,6 +37,7 @@ body {
   border-radius: 50%;
   font-size: 12px;
   border: 1px solid #8b5e34;
+  opacity: 0.7 !important;
 }
 
 .testimonials-swiper .swiper-button-next {
@@ -69,6 +70,27 @@ body {
 .swiper-pagination{
   position: relative !important;
   margin-top: 20px !important;
+}
+
+@media (max-width: 1023px) {
+  .testimonials-swiper .swiper-slide {
+    opacity: 0.5;
+    filter: blur(2px);
+    transform: scale(0.92);
+  }
+
+  .testimonials-swiper .swiper-slide-active {
+    opacity: 1;
+    filter: blur(0);
+    transform: scale(1);
+  }
+
+  .testimonials-swiper .swiper-slide-prev,
+  .testimonials-swiper .swiper-slide-next {
+    opacity: 0.5;
+    filter: blur(2px);
+    transform: scale(0.92);
+  }
 }
 
 @media (max-width: 767px) {

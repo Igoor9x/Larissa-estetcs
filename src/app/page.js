@@ -11,8 +11,8 @@ export default function Home() {
    <>
     <Header />
     <Hero />
-    <Trataments />
     <About />
+    <Trataments />
     <Results />
     <Depoiments />
     <Footer />
