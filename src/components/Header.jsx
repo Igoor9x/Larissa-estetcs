@@ -31,12 +31,15 @@ export default function Header() {
 
   return (
     <>
-      <header className= {`${activeSection === "heroBanner" ? " bg-transparent w-full h-18 flex items-center justify-between px-10 fixed transition-colors duration-300 z-3" : "bg-white w-full h-18 flex items-center justify-between px-10 fixed shadow-sm transition-colors duration-300 z-3"}`}>
+      <header className= {`${activeSection === "heroBanner" ? " bg-transparent w-full h-18 flex items-center justify-center gap-12 px-10 fixed transition-colors duration-300 z-3 max-lap:px-5 max-lap:gap-10" : "bg-white w-full h-18 flex items-center justify-center gap-12 px-10 fixed shadow-sm transition-colors duration-300 z-3 max-lap:px-5 max-lap:gap-10"}`}>
+        <div className="hidden max-tab:flex">
+
+        </div>
         <div className="text-2xl font-bold text-yellow-900">
-          <img src="/assets/logo2.png" alt="Larissa" className="w-[180px] pt-3 " />
+          <img src="/assets/logo2.png" alt="Larissa" className="w-[120px] pt-3 " />
         </div>
         <nav>
-          <ul className="flex items-center justify-center space-x-6">
+          <ul className="flex items-center justify-center space-x-6 max-tab:hidden">
             <li><a
               href="#heroBanner"
               className={`${
@@ -71,7 +74,7 @@ export default function Header() {
             <li><a href="#" className="text-gray-700 text-[16px] hover:text-yellow-900">Contato</a></li>
           </ul>
         </nav>
-        <button className="bg-blue-500 text-white px-4 py-2 rounded cursor-pointer bg-yellow-900">Agendar Consulta</button>
+        <button className="text-white px-4 py-2 rounded cursor-pointer bg-yellow-900 max-tab:px-3 max-mob:text-[12px] max-mob:hidden">Agendar Consulta</button>
       </header>
     </>
   )

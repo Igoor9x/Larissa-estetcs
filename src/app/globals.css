@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-lap: 1279px;
+  --breakpoint-tab: 1023px;
+  --breakpoint-mob: 767px;
+}
+
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -63,4 +69,14 @@ body {
 .swiper-pagination{
   position: relative !important;
   margin-top: 20px !important;
+}
+
+@media (max-width: 767px) {
+  .testimonials-swiper .swiper-button-next {
+    right: var(--swiper-navigation-sides-offset, 10px) !important;
+  }
+
+  .testimonials-swiper .swiper-button-prev{
+    margin-left: 10px !important;
+  }
 }

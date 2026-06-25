@@ -2,10 +2,10 @@
 export default function Footer() {
   return (
     <>
-      <div className=" px-10 py-10 bg-[#F9F3ED] flex align-start justify-between">
-      <div className="max-w-[1440px] flex align-start gap-10 mx-auto">
-        <div className="flex flex-col items-start justify-center text-start">
-          <span className="text-[16px] font-semibold text-yellow-700 uppercase">Agende sua consulta</span>
+      <div className=" px-10 py-10 bg-[#F9F3ED] flex items-start justify-between max-tab:px-5">
+      <div className="max-w-[1440px] flex items-start gap-10 mx-auto max-tab:flex-wrap-reverse max-tab:justify-center">
+        <div className="flex flex-col items-start justify-center text-start max-tab:w-[43%] max-mob:w-full">
+          <span className="text-[16px] font-semibold text-yellow-700 uppercase mb-4">Agende sua consulta</span>
           <h3 className="text-[22px] font-bold mb-4 leading-none text-[#8B4513]">Vamos realçar sua melhor versão?</h3>
           <span className="text-[14px] text-gray-600 mb-6">Entre em contato e agende sua avaliação personalizada.</span>
           <div className="flex gap-4 mb-6">
@@ -26,18 +26,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="">
-          <span className="text-[16px] font-semibold text-yellow-700 uppercase">Localização</span>
-          <img 
-            src="/assets/location.png" 
-            alt="Centro médico Otavio Santos" 
-            className="rounded-lg mt-2 mb-2 w-[350px] h-[300px] object-cover"
-          />
-          <span className="text-center text-[18px] px-4 py-2 rounded mt-6 block cursor-pointer text-yellow-700 bg-white border border-yellow-700  transition-all duration-300 hover:bg-yellow-900 hover:text-white hover:border-yellow-900">Ver no Google Maps</span>
-        </div>
-
-        <div className="flex flex-col items-start justify-center text-start w-[350px]">
-          <span className="text-[16px] font-semibold text-yellow-700 uppercase">Envie uma mensagem</span>
+        <div className="flex flex-col items-start justify-center text-start w-[350px] max-mob:w-full">
+          <span className="text-[16px] font-semibold text-yellow-700 uppercase mb-4">Envie uma mensagem</span>
           <form className="flex flex-col gap-2 w-full mt-2">
             <input type="text" placeholder="Nome Completo" className="border-none rounded-md px-2 py-3 bg-white outline-none text-gray-700" />
             <input type="text" placeholder="WhatsApp" className="border-none rounded-md px-2 py-3 bg-white outline-none text-gray-700" />
@@ -46,6 +36,17 @@ export default function Footer() {
             <button type="submit" className="bg-yellow-900 text-white py-2 px-4 rounded-md hover:bg-yellow-700 transition duration-300">Enviar</button>
           </form>
         </div>
+
+        <div className=" max-mob:w-full">
+          <span className="text-[16px] font-semibold text-yellow-700 uppercase mb-4">Localização</span>
+          <img 
+            src="/assets/location.png" 
+            alt="Centro médico Otavio Santos" 
+            className="rounded-lg mt-2 mb-2 w-[350px] h-[300px] object-cover"
+          />
+          <span className="text-center text-[18px] px-4 py-2 rounded mt-6 block cursor-pointer text-yellow-700 bg-white border border-yellow-700  transition-all duration-300 hover:bg-yellow-900 hover:text-white hover:border-yellow-900">Ver no Google Maps</span>
+        </div>
+
       </div>
       </div>
     </>

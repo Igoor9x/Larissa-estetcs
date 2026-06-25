@@ -10,19 +10,32 @@ export default function Results() {
   return (
     <>
       <div>
-        <div className="flex flex-col items-center justify-center text-center gap-2 pt-10 pb-4">
-          <h2 className="text-4xl font-bold text-[#2C1A0F] text-center py-10 pb-0">Resultados que falam por si</h2>
+        <div className="flex flex-col items-center justify-center text-center gap-2 pt-10 pb-4 max-mob:px-5">
+          <h2 className="text-4xl font-bold text-[#2C1A0F] text-center py-10 pb-0 max-mob:pt-0 max-mob:text-[28px]">Resultados que falam por si</h2>
           <span className="mt-2 text-[#5D4037]">
-            Veja alguns resultados reais de nossas pacientes.
+            Veja alguns resultados reais de nossas&nbsp;pacientes.
           </span>
         </div>
-        <div className="px-10 pb-20">
+        <div className="px-10 pb-20 max-tab:px-5 max-tab:pb-10">
           <Swiper 
            modules={[Navigation, Pagination,]}
-            slidesPerView={3}
             spaceBetween={25}
             navigation={true}
             pagination={{ clickable: true }}
+            breakpoints={{
+               0: {
+                slidesPerView: 1,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+              1024: {
+                slidesPerView: 3.,
+              },
+              1280: {
+                slidesPerView: 3.,
+              },
+            }}
           >
             <SwiperSlide><img src="../assets/resultado1.png" alt="Result 1" className="rounded-xl" /></SwiperSlide>
             <SwiperSlide><img src="../assets/resultado2.png" alt="Result 2" className="rounded-xl" /></SwiperSlide>
