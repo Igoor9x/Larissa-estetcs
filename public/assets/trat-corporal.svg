@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Tratamentos corporais">
+  <circle cx="100" cy="100" r="100" fill="#2A2320"/>
+  <g fill="none" stroke="#E8A93A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M100 30 C108 30 112 36 112 42 C112 49 107 54 100 54 C93 54 88 49 88 42 C88 36 92 30 100 30 Z"/>
+    <path d="M86 60 C78 64 76 74 80 86 C83 96 78 106 76 116 C74 128 80 140 88 150 L86 172 M114 60 C122 64 124 74 120 86 C117 96 122 106 124 116 C126 128 120 140 112 150 L114 172"/>
+    <path d="M86 60 C95 56 105 56 114 60"/>
+    <path d="M77 116 C88 124 112 124 123 116" stroke-dasharray="3 5"/>
+    <rect x="134" y="96" width="34" height="20" rx="8"/>
+    <path d="M142 106 H160 M151 116 V138"/>
+    <path d="M48 94 C54 102 54 110 48 118 M40 98 C44 103 44 109 40 114" stroke-width="2"/>
+  </g>
+</svg>

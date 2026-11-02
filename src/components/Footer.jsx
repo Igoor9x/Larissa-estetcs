@@ -27,16 +27,16 @@ export default function Footer() {
 
           <div className="flex flex-col items-start justify-center text-start max-lap:w-[43%] max-mob:w-full">
             <span className="text-[16px] font-semibold text-yellow-700 uppercase mb-4">Agende sua consulta</span>
-            <h3 className="text-[22px] font-bold mb-4 leading text-[#8B4513] leading-[1.3]">Vamos realçar sua melhor&nbsp;versão?</h3>
+            <h3 className="text-[22px] font-bold mb-4 leading text-[#8B4513] leading-[1.3]">Vamos cuidar da sua&nbsp;pele?</h3>
             <span className="text-[14px] text-gray-600 mb-6">Entre em contato e agende sua avaliação personalizada.</span>
             <div className="flex gap-4 mb-6">
               <a 
-                href="https://wa.me/5577991236335?text=Olá! Vim pelo site e gostaria de agendar uma consulta. Pode me passar mais informações sobre os horários disponíveis?" 
+                href="https://wa.me/5577900000000?text=Olá! Vim pelo site e gostaria de agendar uma consulta. Pode me passar mais informações sobre os horários disponíveis?" 
                 className="flex items-center gap-2 text-[18px] px-4 py-2 rounded mt-6 block cursor-pointer text-white bg-yellow-900  transition-all duration-300 hover:shadow-xl shadow-yellow-700/50 hover:bg-yellow-700 max-mob:mt-0">
                 <FaWhatsapp size={20} /> WhatsApp
               </a>
               <a 
-                href="https://www.instagram.com/dralarissaalm/" 
+                href="https://www.instagram.com/" 
                 className="flex items-center gap-2 text-[18px] px-4 py-2 rounded mt-6 block cursor-pointer text-yellow-700 bg-white border border-yellow-700  transition-all duration-300 hover:bg-yellow-900 hover:text-white hover:border-yellow-900 max-mob:mt-0">
                   <FaInstagram size={20} /> Instagram 
               </a>
@@ -44,11 +44,11 @@ export default function Footer() {
             <div className="flex flex-col gap-2">
               <div className="flex items-center gap-2">
                 <span><Phone size={16} /></span>
-                <span className="flex items-center gap-2">(77) 99123-6335</span>
+                <span className="flex items-center gap-2">(77) 90000-0000</span>
               </div>
               <div className="flex items-center gap-2">
                 <span><MapPin size={16} /></span>
-                <span className="flex items-center gap-2"> Av. Otávio Santos, 227 - Recreio, Vitória da Conquista - BA, 45020-310</span>
+                <span className="flex items-center gap-2"> Vitória da Conquista - BA e Piripá - BA</span>
               </div>
             </div>
           </div>
@@ -58,11 +58,11 @@ export default function Footer() {
           <div className="w-[350px] max-lap:w-full">
             <span className="text-[16px] font-semibold text-yellow-700 uppercase mb-4">Localização</span>
             <img 
-              src="/assets/location2.png" 
-              alt="Centro médico Otavio Santos" 
+              src="/assets/atendimento-cidades.svg" 
+              alt="Atendimento em Vitória da Conquista e Piripá - BA" 
               className="rounded-lg mt-2 mb-2 w-[350px] h-[320px] object-cover max-lap:w-full max-lap:h-[420px]"
             />
-            <a href="https://maps.app.goo.gl/LwSqD6rW6jXQacdf7" target="_blank" rel="noopener noreferrer" className="text-center text-[18px] px-4 py-2 rounded mt-6 block cursor-pointer text-yellow-700 bg-white border border-yellow-700  transition-all duration-300 hover:bg-yellow-900 hover:text-white hover:border-yellow-900">Ver no Google Maps</a>
+            <a href="https://www.google.com/maps/search/Vit%C3%B3ria+da+Conquista+BA" target="_blank" rel="noopener noreferrer" className="text-center text-[18px] px-4 py-2 rounded mt-6 block cursor-pointer text-yellow-700 bg-white border border-yellow-700  transition-all duration-300 hover:bg-yellow-900 hover:text-white hover:border-yellow-900">Ver no Google Maps</a>
           </div>
 
         </div>
@@ -70,8 +70,8 @@ export default function Footer() {
 
       <div className="gap-4 border-t py-4 px-5 text-[14px] text-yellow-900 max-mob:text-[12px]">
         <div className="flex justify-around items-center max-w-[1440px] max-mob:flex-col">
-          <img src="/assets/logo2.png" alt="Logo" className="w-auto h-20" />
-          <span className="max-mob:text-center">© 2026 Larissa Almeida Harmonização Facial. Todos&nbsp;os&nbsp;direitos&nbsp;reservados.</span>
+          <img src="/assets/logo-alanna.svg" alt="Alanna Reis Estética" className="w-auto h-20" />
+          <span className="max-mob:text-center">© 2026 Alanna Reis Estética. Todos&nbsp;os&nbsp;direitos&nbsp;reservados.</span>
         </div>
       </div>
       

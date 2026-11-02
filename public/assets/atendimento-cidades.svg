@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 640" role="img" aria-label="Atendimento em Vitória da Conquista e Piripá - BA">
+  <rect width="700" height="640" rx="24" fill="#F6EEE3"/>
+  <g stroke="#E6D6BF" stroke-width="2" fill="none">
+    <path d="M0 120 C160 160 260 60 420 110 C540 148 620 90 700 120"/>
+    <path d="M0 300 C140 260 300 360 460 300 C560 262 640 320 700 300"/>
+    <path d="M0 500 C180 540 280 440 440 490 C560 528 630 470 700 500"/>
+    <path d="M160 0 C200 160 120 320 200 640"/>
+    <path d="M540 0 C490 180 580 360 520 640"/>
+  </g>
+  <path d="M470 230 C400 300 330 340 240 420" stroke="#C9A063" stroke-width="4" stroke-dasharray="4 14" stroke-linecap="round" fill="none"/>
+  <g transform="translate(470 230)"><path d="M0 0 C-30 -40 -44 -60 -44 -84 C-44 -110 -24 -128 0 -128 C24 -128 44 -110 44 -84 C44 -60 30 -40 0 0 Z" fill="#8B5A2B"/><circle cy="-86" r="16" fill="#F6EEE3"/></g>
+  <g transform="translate(240 420)"><path d="M0 0 C-30 -40 -44 -60 -44 -84 C-44 -110 -24 -128 0 -128 C24 -128 44 -110 44 -84 C44 -60 30 -40 0 0 Z" fill="#B07A2E"/><circle cy="-86" r="16" fill="#F6EEE3"/></g>
+  <g font-family="Montserrat, Arial, sans-serif" fill="#2C1A0F">
+    <text x="410" y="290" font-size="32" font-weight="700" text-anchor="end">Vitória da Conquista</text>
+    <text x="410" y="322" font-size="20" fill="#8B5A2B" text-anchor="end">Bahia</text>
+    <text x="300" y="400" font-size="32" font-weight="700">Piripá</text>
+    <text x="300" y="432" font-size="20" fill="#8B5A2B">Bahia</text>
+    <text x="350" y="560" font-size="24" text-anchor="middle" fill="#5D4037">Atendimento nas duas cidades</text>
+  </g>
+</svg>
