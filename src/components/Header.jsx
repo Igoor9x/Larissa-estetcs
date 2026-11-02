@@ -42,7 +42,7 @@ export default function Header() {
 
         </div>
         <div className="text-2xl font-bold text-yellow-900">
-          <img src="/assets/logo-alanna.svg" alt="Alanna Reis Estética" className="w-[120px] pt-3 " />
+          <img src="/assets/logo-alanna.svg" alt="Alanna Reis" className="w-[130px] h-auto block" />
         </div>
         <nav>
           <ul className="flex items-center justify-center space-x-6 max-tab:hidden">

@@ -1,16 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-label="Alanna Reis Estética">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 150" role="img" aria-label="Alanna Reis">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#C9A063"/><stop offset=".5" stop-color="#E3C48A"/><stop offset="1" stop-color="#9C7238"/>
     </linearGradient>
   </defs>
-  <g fill="none" stroke="url(#g)" stroke-linecap="round" stroke-linejoin="round">
+  <g fill="none" stroke="url(#g)" stroke-linecap="round" stroke-linejoin="round" transform="translate(180 54) scale(.7) translate(-180 -100)">
     <path d="M120 150 L152 52 L184 150" stroke-width="5"/>
     <path d="M134 112 H172" stroke-width="3"/>
     <path d="M196 150 V52 H222 C248 52 248 100 222 100 H196" stroke-width="5"/>
     <path d="M216 100 L250 150" stroke-width="5"/>
     <path d="M70 128 C100 168 150 120 120 104 C96 92 84 140 140 150 C200 162 260 150 296 116 C312 100 296 86 282 104 C270 120 292 140 310 128" stroke-width="2"/>
   </g>
-  <text x="180" y="196" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-size="30" letter-spacing="6" fill="#9C7238">ALANNA REIS</text>
-  <text x="180" y="222" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="12" letter-spacing="7" fill="#B08A52">ESTÉTICA</text>
+  <text x="180" y="136" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-size="34" letter-spacing="6" fill="#9C7238">ALANNA REIS</text>
 </svg>

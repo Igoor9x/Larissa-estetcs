@@ -70,7 +70,7 @@ export default function Footer() {
 
       <div className="gap-4 border-t py-4 px-5 text-[14px] text-yellow-900 max-mob:text-[12px]">
         <div className="flex justify-around items-center max-w-[1440px] max-mob:flex-col">
-          <img src="/assets/logo-alanna.svg" alt="Alanna Reis Estética" className="w-auto h-20" />
+          <img src="/assets/logo-alanna.svg" alt="Alanna Reis" className="w-auto h-16" />
           <span className="max-mob:text-center">© 2026 Alanna Reis Estética. Todos&nbsp;os&nbsp;direitos&nbsp;reservados.</span>
         </div>
       </div>
