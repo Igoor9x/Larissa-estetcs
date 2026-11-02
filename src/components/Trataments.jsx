@@ -19,7 +19,7 @@ export default function Trataments() {
             <h3 className="text-xl font-bold text-[#2C1A0F] px-4 pt-12">Microagulhamento</h3>
             <span className="text-gray-600 px-6 max-lap:max-w-[350px]">Estimula o colágeno e melhora cicatrizes de acne, estrias e a textura da pele.</span>
             {/* <span className="text-yellow-700 hover:text-yellow-900 cursor-pointer">Saiba mais</span> */}
-            <img src="../assets/card2.png" alt="Microagulhamento" className="w-full h-[200px] object-cover rounded-b-lg max-lap:h-[350px]" />
+            <img src="../assets/card3.png" alt="Microagulhamento" className="w-full h-[200px] object-cover rounded-b-lg max-lap:h-[350px]" />
           </div>
 
           <div className="flex flex-col items-center justify-end gap-4 text-center w-[500px] h-[430px] bg-white rounded-lg shadow-md transition-all duration-300 relative max-lap:w-[47%] max-lap:h-auto max-mob:w-full">
@@ -27,7 +27,7 @@ export default function Trataments() {
             <h3 className="text-xl font-bold text-[#2C1A0F] px-4 pt-12">Tratamentos Corporais</h3>
             <span className="text-gray-600 px-6 max-lap:max-w-[350px]">Endermoterapia e carboxiterapia para gordura localizada, celulite e contorno corporal.</span>
             {/* <span className="text-yellow-700 hover:text-yellow-900 cursor-pointer">Saiba mais</span> */}
-            <img src="../assets/card3.png" alt="Tratamentos Corporais" className="w-full h-[200px] object-cover rounded-b-lg max-lap:h-[350px]" />
+            <img src="../assets/card2.png" alt="Tratamentos Corporais" className="w-full h-[200px] object-cover rounded-b-lg max-lap:h-[350px]" />
           </div>
 
           <div className="flex flex-col items-center justify-end gap-4 text-center w-[500px] h-[430px] bg-white rounded-lg shadow-md transition-all duration-300 relative max-lap:w-[47%] max-lap:h-auto max-mob:w-full">
